@@ -1,0 +1,105 @@
+{
+  "project_info": {
+    "project_number": "356288178277",
+    "firebase_url": "https://somefood-7d864.firebaseio.com",
+    "project_id": "somefood-7d864",
+    "storage_bucket": "somefood-7d864.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:356288178277:android:105309e99976cea3",
+        "android_client_info": {
+          "package_name": "com.trabajo.carlos.somefood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "356288178277-3oooe9ju794r8fju9cs10b9jpp21smcc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.trabajo.carlos.somefood",
+            "certificate_hash": "f0e859fac32fd076939d07476872558c6f1d9ba0"
+          }
+        },
+        {
+          "client_id": "356288178277-iaaf4gpv6bhgjimsj6plb8d5p2h8thq8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC17kRK71SqSyvezHonTXPrI9DBcmn70TE"
+        },
+        {
+          "current_key": "AIzaSyB-EUfuDUAEHvsJz7n-UUCIXRBMx1NSLSk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "356288178277-iaaf4gpv6bhgjimsj6plb8d5p2h8thq8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:356288178277:android:d380dc4f3f1a45d9",
+        "android_client_info": {
+          "package_name": "com.trabajo.carlos.somefoodserver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "356288178277-r27d9jsrjo7fvgi3ss7rjgrcgpva4p5g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.trabajo.carlos.somefoodserver",
+            "certificate_hash": "f0e859fac32fd076939d07476872558c6f1d9ba0"
+          }
+        },
+        {
+          "client_id": "356288178277-iaaf4gpv6bhgjimsj6plb8d5p2h8thq8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC17kRK71SqSyvezHonTXPrI9DBcmn70TE"
+        },
+        {
+          "current_key": "AIzaSyB-EUfuDUAEHvsJz7n-UUCIXRBMx1NSLSk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "356288178277-iaaf4gpv6bhgjimsj6plb8d5p2h8thq8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

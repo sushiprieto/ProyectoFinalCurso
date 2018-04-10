@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background3"
+    tools:context="com.trabajo.carlos.somefoodserver.OrderDetailActivity">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/orderDetail_orderInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        app:cardElevation="4dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="9"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/orderDetail_txvId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center_vertical|start"
+                    android:text="#1234541"
+                    android:textAllCaps="true"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/orderDetail_txvPhone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center_vertical|start"
+                    android:text="685700075"
+                    android:textAllCaps="true"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:id="@+id/orderDetail_txvTotal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center_vertical|start"
+                    android:text="123€"
+                    android:textAllCaps="true"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:id="@+id/orderDetail_txvAddress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center_vertical|start"
+                    android:text="Calle asasasd"
+                    android:textAllCaps="true"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:id="@+id/orderDetail_txvComment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center_vertical|start"
+                    android:text="Comentarioa as "
+                    android:textAllCaps="true"
+                    android:textStyle="italic" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/orderDetail_orderInfo"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginStart="8dp"
+            android:text="Detalles"
+            android:textColor="@android:color/white"
+            android:textSize="30sp" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/orderDetail_rcvListFood"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</RelativeLayout>

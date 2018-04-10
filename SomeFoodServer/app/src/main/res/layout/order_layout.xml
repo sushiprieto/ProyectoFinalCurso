@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="9"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/order_txvId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center_vertical|start"
+                    android:text="#1234541"
+                    android:textAllCaps="true"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/order_txvStatus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center_vertical|start"
+                    android:text="estado"
+                    android:textAllCaps="true"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:id="@+id/order_txvPhone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center_vertical|start"
+                    android:text="954121123"
+                    android:textAllCaps="true"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:id="@+id/order_txvAddress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center_vertical|start"
+                    android:text="Calle asasasd"
+                    android:textAllCaps="true"
+                    android:textStyle="italic" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:orientation="horizontal">
+
+            <info.hoang8f.widget.FButton
+                android:id="@+id/order_btnEdit"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Editar"
+                app:cornerRadius="0dp"
+                app:fButtonColor="@android:color/white" />
+
+            <info.hoang8f.widget.FButton
+                android:id="@+id/order_btnRemove"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Borrar"
+                app:cornerRadius="0dp"
+                app:fButtonColor="@android:color/white" />
+
+            <info.hoang8f.widget.FButton
+                android:id="@+id/order_btnDetail"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Detalles"
+                app:cornerRadius="0dp"
+                app:fButtonColor="@android:color/white" />
+
+            <info.hoang8f.widget.FButton
+                android:id="@+id/order_btnDirection"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Dirección"
+                app:cornerRadius="0dp"
+                app:fButtonColor="@android:color/white" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
